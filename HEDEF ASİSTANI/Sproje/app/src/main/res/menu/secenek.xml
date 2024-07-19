@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/ana_activity"
+        android:title="Ana Sayfa"
+        android:icon="@drawable/ic_home"
+        android:checked="true"
+        />
+    <item
+        android:id="@+id/hedef_detay_sayfasi"
+        android:title="Hedef Detayı"
+        android:icon="@drawable/ic_target"
+        android:checked="true"
+        />
+    <item
+        android:id="@+id/gunluk_ilerleme_sayfasi"
+        android:title="Günlük İlerleme Grafiği"
+        android:icon="@drawable/ic_progress"
+        android:checked="true"/>
+    <item
+        android:id="@+id/motivasyon_bildirimi_sayfasi"
+        android:title="Motivasyon Bildirimleri"
+        android:icon="@drawable/ic_notification"
+        android:checked="true"/>
+    <item
+        android:id="@+id/grafiksel"
+        android:title="Grafiksel Analiz"
+        android:icon="@drawable/ic_chart"
+        android:checked="true"
+        tools:ignore="DuplicateIds" />
+    <item
+        android:id="@+id/sen"
+        android:title="Sensor"
+        android:checked="true"/>
+    <item
+        android:id="@+id/step"
+        android:title="step"
+        android:checked="true"/>
+    <item
+        android:id="@+id/gunlukilerleme"
+        android:title="ilerleme Kydi"
+
+        android:checked="true"/>
+
+</menu>

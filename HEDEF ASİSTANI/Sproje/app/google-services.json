@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "366740242952",
+    "project_id": "sproje-7a19c",
+    "storage_bucket": "sproje-7a19c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:366740242952:android:f625c71a54af03d53ac7bd",
+        "android_client_info": {
+          "package_name": "com.example.sproje"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBT3dcqT6l9T6KUPecmv7LdR_AHD4OitxQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

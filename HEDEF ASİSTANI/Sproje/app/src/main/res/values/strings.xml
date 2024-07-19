@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Sproje</string>
+    <string name="facebook_app_id">YOUR_FACEBOOK_APP_ID</string>
+    <string name="web_client_id">xxxxxxxx..place your web client id here</string>
+    <string name="add">Add</string>
+
+    <string-array name="category_array">
+        <item>İş</item>
+        <item>Kişisel Gelişim</item>
+        <item>Eğitim</item>
+        <item>Spor</item>
+        <item>Sağlık</item>
+    </string-array>
+
+
+</resources>

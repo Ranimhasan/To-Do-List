@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <EditText
+        android:id="@+id/editTextUpdateGoalName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Hedef Adı"
+        android:textSize="18sp"/>
+
+    <EditText
+        android:id="@+id/editTextUpdateCategory"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/editTextUpdateGoalName"
+        android:layout_marginTop="8dp"
+        android:hint="Kategori"
+        android:textSize="18sp"/>
+
+    <EditText
+        android:id="@+id/editTextUpdateGoalDescription"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/editTextUpdateCategory"
+        android:layout_marginTop="8dp"
+        android:hint="Açıklama"
+        android:textSize="18sp"/>
+
+    <Button
+        android:id="@+id/buttonUpdateGoal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/editTextUpdateGoalDescription"
+        android:layout_marginTop="16dp"
+        android:text="Hedefi Güncelle"
+        android:background="#f20730"
+        android:textColor="#FFFFFF"/>
+</RelativeLayout>
+
